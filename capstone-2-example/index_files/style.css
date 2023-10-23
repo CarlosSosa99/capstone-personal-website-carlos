@@ -1,0 +1,177 @@
+/* Estilos generales */
+body {
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+  }
+  
+  /* Encabezado */
+  h1 {
+    color: #66bfbf;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento", cursive;
+  }
+  
+  h2 {
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+  }
+  
+  /* Títulos y enlaces */
+  h3 {
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  p {
+    line-height: 2;
+  }
+  
+  hr {
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+  }
+  
+  a {
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #eaf6f6;
+  }
+  
+  /* Contenedores */
+  .top-container {
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 30px;
+  }
+  
+  .middle-container {
+    margin: 100px 0;
+  }
+  
+  .bottom-container {
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+  }
+  
+  /* Filas de habilidades */
+  .skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+  }
+  
+  /* Otros estilos */
+  .full {
+    text-decoration: underline;
+  }
+  
+  .intro {
+    width: 30%;
+    margin: auto;
+  }
+  
+  .contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+  }
+  
+  /* Pie de página */
+  .copyright {
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+  }
+  
+  /* Imágenes y botones */
+  .top-cloud, .bottom-cloud, .code-img, .logoMiamiVuce, .myskills {
+    width: auto;
+  }
+ 
+  .logos {
+    margin-top: 3%;
+    width: 7%;
+  }
+
+  .code-img {
+    float: left;
+    margin-right: 30px;
+  }
+  
+  .logoMiamiVuce {
+    width: 20%;
+  }
+  
+  .btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+  
+  /* Estilos para la cuadrícula de habilidades */
+  .parent {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+  }
+  
+  .coding {
+    margin-left: 50px;
+  }
+  
+
+  .guilty-pleasure {
+    margin-left: 30px;
+  }
+  
+  /* Reglas de medios para dispositivos móviles */
+  @media screen and (max-width: 768px) {
+    /* Ajustes de tamaño y posicionamiento para pantallas más pequeñas */
+    h1 {
+      font-size: 3.125rem;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+  
+    .intro, .contact-message {
+      width: 90%;
+    }
+  }
+  
